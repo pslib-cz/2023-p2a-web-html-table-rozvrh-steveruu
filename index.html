@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
     <title>Rozvrh O3T</title>
 </head>
+
 <body>
     <table>
         <caption>Rozvrh třídy O3T</caption>
-        
+
         <colgroup>
             <col class="dny">
-            <col>
-            <col>
-            <col>
-            <col>
-            <col>
-            <col>
-            <col>
-            <col>
-            <col>
-            <col> 
+            
             <!-- 10 sloupcu -->
         </colgroup>
+            <col span="10">
 
         <thead>
             <tr>
@@ -42,12 +36,112 @@
         </thead>
 
         <tbody>
+            <!-- pondělí -->
             <tr>
-                <th>Pondělí</th>
-                <td>DUO/STR</td>
-                <td></td>
+                <th rowspan="2">Pondělí</th>
+                <td rowspan="2" class="volna"></td>
+                <td>DUO</td>
+                <td>DUO</td>
+                <td rowspan="2">MAT</td>
+                <td rowspan="2">ANJ</td>
+                <td>ESA</td>
+                <td>OTEC</td>
+                <td rowspan="2" class="volna"></td>
+                <td rowspan="2">STA</td>
+                <td rowspan="2">STA</td>
             </tr>
+            <tr>
+                <td>STR</td>
+                <td>TNT</td>
+                <td>ZXT</td>
+                <td>TTE</td>
+
+            </tr>
+
+            <!-- úterý -->
+            <tr>
+                <th rowspan="2">Úterý</th>
+                <td rowspan="2" class="volna"></td>
+                <td rowspan="2">CJL</td>
+                <td rowspan="2">NEJv</td>
+                <td>ESA</td>
+                <td rowspan="2">MAT</td>
+                <td rowspan="2">EKO</td>
+                <td rowspan="2">ANJ</td>
+                <td rowspan="2" class="volna"></td>
+                <td rowspan="2">ŠPJv</td>
+                <td rowspan="2">ZAP</td>
+            </tr>
+            <tr>
+                <td>TPL</td>
+            </tr>
+
+            <!-- středa -->
+            <tr>
+                <th rowspan="3" class="den">Středa</th>
+                <td rowspan="3" class="volna"></td>
+                <td>NMO</td>
+                <td rowspan="1">NMO</td>
+                <td rowspan="1">KOO</td>
+                <td rowspan="1">KOO</td>
+                <td rowspan="3" class="volna"></td>
+                <td rowspan="1">L: PRT</td>
+                <td rowspan="1">L: PRT</td>
+                <td rowspan="1">L: PRT</td>
+                <td rowspan="1">L: PRT</td>
+
+            </tr>
+            <tr>
+                <td>STD</td>
+                <td rowspan="2">STD</td>
+                <td rowspan="2">ZTC</td>
+                <td rowspan="2">TTE</td>
+                <td rowspan="1">PRO</td>
+                <td rowspan="1">PRO</td>
+                <td rowspan="1">PRO</td>
+                <td rowspan="1">PRO</td>
+            </tr>
+            <tr>
+                <td>ZAP</td>
+                <td rowspan="1">S: PRT</td>
+                <td rowspan="1">S: PRT</td>
+                <td rowspan="1">S: PRT</td>
+                <td rowspan="1">S: PRT</td>
+            </tr>
+
+            <!-- čtvrtek -->
+            <tr class="nepuleny_den">
+                <th>Čtvrtek</th>
+                <td class="volna"></td>
+                <td>IKT</td>
+                <td>ŠPJv</td>
+                <td>NEJv</td>
+                <td class="volna">
+                
+                <td>MAT</td>
+                <td>OBZ</td>
+                <td>TEV</td>
+                <td>TEV</td>
+                <td class="volna">
+            </tr>
+
+            <!-- pátek -->
+            <tr class="nepuleny_den">
+                <th>Pátek</th>
+                <td class="volna"></td>
+                <td>CJL</td>
+                <td>ANJ</td>
+                <td>IKT</td>                
+                <td>EKO</td>
+                <td>OTEC</td>
+                <td>OTEC</td>
+                <td class="volna">
+                <td class="volna">
+                <td class="volna">
+            </tr>
+
         </tbody>
     </table>
 </body>
+
 </html>

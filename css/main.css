@@ -22,5 +22,21 @@ th, td {
 }
 
 th {
-    background-color: #dadada;
+    background-color: #b5b5b5;
+}
+
+.volna {
+    background-color: #d6d6d6;
+}
+
+.nepuleny_den * {
+    height: 75px;
+}
+
+.dny {
+    width: 50px;
+}
+
+caption {
+    margin: 10px;
 }
