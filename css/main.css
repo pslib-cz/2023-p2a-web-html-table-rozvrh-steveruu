@@ -50,3 +50,8 @@ span {
     background-color: rgba(194, 14, 26, 0.55); /* obslehnuto primo z Bakalaru */ 
 
 }
+
+td:hover {
+    font-size: 1.5em;
+    font-weight: 700;
+}
