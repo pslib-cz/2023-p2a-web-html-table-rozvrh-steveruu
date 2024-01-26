@@ -22,7 +22,7 @@ th, td {
 }
 
 th {
-    background-color: #b5b5b5;
+    background-color: #adadad;
 }
 
 .volna {
@@ -51,7 +51,7 @@ span {
 
 }
 
-td:hover {
+td:hover:not(.volna) {
     font-size: 1.5em;
     font-weight: 700;
 }
