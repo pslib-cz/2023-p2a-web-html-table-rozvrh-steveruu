@@ -40,3 +40,8 @@ th {
 caption {
     margin: 10px;
 }
+
+span {
+    display: block;
+    font-size: 10px;
+}
